@@ -2,7 +2,7 @@ package task1;
 
 public class TriangleTest {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IllegalArgumentException {
         //Formula and area calc test is here: https://www.mathopenref.com/coordtrianglearea.html
         TriangleVertex triangleVertexA = new TriangleVertex(15, 15);
         TriangleVertex triangleVertexB = new TriangleVertex(23, 30);
